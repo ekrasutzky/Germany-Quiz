@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #quiz-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #options-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #options-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #options-container button:hover {
+    background-color: #555;
+  }
+  
+  #feedback-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #score-container {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #score {
+    color: #00a800;
+  }
+  
+  #username {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #quiz-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #options-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #options-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #options-container button:hover {
+    background-color: #555;
+  }
+  
+  #feedback-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #score-container {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #score {
+    color: #00a800;
+  }
+  
+  #username {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
