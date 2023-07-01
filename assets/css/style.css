@@ -67,8 +67,9 @@ h4{
 #none{
   background-color: #000000;
   text-align: center;
-  padding: 1rem;
+  padding: 1px;
   color: #FFCC00;
+  font-size: 70px;
   
 }
 
@@ -109,5 +110,5 @@ input[type="text"] {
 }
 
 #instructions{
-  font-size: 50px;
+  font-size: 40px;
 }

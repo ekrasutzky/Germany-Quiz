@@ -1,9 +1,9 @@
-const quizContainer = document.getElementById('quiz');
-const scoreContainer = document.getElementById('score-value');
-const feedbackContainer = document.getElementById('feedback');
-const startButton = document.getElementById('start-btn');
+let quizContainer = document.getElementById('quiz');
+let scoreContainer = document.getElementById('score-value');
+let feedbackContainer = document.getElementById('feedback');
+let startButton = document.getElementById('start-btn');
 
-const questions = [
+let questions = [
     {
         question: "Germany is the largest country in Europe.",
         answer: false,
@@ -40,13 +40,13 @@ function renderQuestion() {
         return;
     }
 
-    const question = questions[currentQuestion];
-    const questionElement = document.createElement('div');
+    let question = questions[currentQuestion];
+    let questionElement = document.createElement('div');
     questionElement.innerHTML = question.question;
     quizContainer.appendChild(questionElement);
 
-    const trueButton = createButton('True');
-    const falseButton = createButton('False');
+    let trueButton = createButton('True');
+    let falseButton = createButton('False');
 
     trueButton.addEventListener('click', () => {
         checkAnswer(true, question);
@@ -60,7 +60,7 @@ function renderQuestion() {
 }
 
 function createButton(text) {
-    const button = document.createElement('button');
+    let button = document.createElement('button');
     button.innerHTML = text;
     return button;
 }
@@ -79,12 +79,25 @@ function checkAnswer(userAnswer, question) {
 }
 
 function finishQuiz() {
-    quizContainer.innerHTML = 'Congratulations! You have completed the quiz.';
-    feedbackContainer.innerHTML = '';
+    
 
     startButton.style.display = 'inline-block';
     startButton.innerHTML = 'Restart';
     startButton.addEventListener('click', restartQuiz);
+    
+    let username = document.getElementById('username').value;
+    
+    let message;
+    if (score >= 3) {
+        message = `Congratulations, ${username}! You passed the quiz with a score of ${score}/${questions.length}. Well done!`;
+    } else {
+        message = `Sorry, ${username}. You did not pass the quiz. Your score is ${score}/${questions.length}. Better luck next time!`;
+    }
+
+    feedbackContainer.innerHTML = `
+        <h2>Quiz Completed</h2>
+        <p>${message}</p>
+    `;
 }
 
 function restartQuiz() {
@@ -95,7 +108,7 @@ function restartQuiz() {
     startQuiz();
 }
 
-const usernameInput = document.getElementById('username');
+let usernameInput = document.getElementById('username');
 
 
 usernameInput.addEventListener('input', () => {
