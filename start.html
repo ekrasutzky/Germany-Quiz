@@ -7,12 +7,18 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 <body>
-    <h1>Welcome to Germany's Quiz!</h1>
+    
      <div class="container">
         <h1>Germany Quiz</h1>
         <div id="quiz"></div>
+        <div id="user-input">
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" required>
+            <button id="start-btn" disabled>Start!</button>
+        </div>
         <div id="score">Score: <span id="score-value">0</span></div>
-        <button id="start-btn">Start</button>
+        
+        
         <div id="feedback"></div>
     </div>
     <script src="/assets/js/script.js"></script>

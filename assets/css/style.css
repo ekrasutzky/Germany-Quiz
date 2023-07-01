@@ -1,22 +1,38 @@
+  @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Gloock&family=Lato:wght@300&family=Oswald:wght@300&family=Playfair+Display&display=swap');
+
 body {
   background-color: #000000;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
   font-size: 20px;
+  font-family: 'Germania One', cursive;
+  letter-spacing: 3px;
+  display: block;
+
+
 }
 
 .container {
   text-align: center;
-  padding: 5rem;
+  padding: 3rem;
+  font-size: 25px;
+  letter-spacing: 3px;
+  display: block;
+
 }
 
 h1 {
   color: #000000;
   background-color: #FF0000;
-  padding: 5rem;
+  padding: 2rem;
   text-align: center;
+  
 }
 
+a{
+  text-decoration: none;
+  color: #000000;
+}
 ul{
   text-align: center;
 }
@@ -37,18 +53,36 @@ h4{
 }
 #quiz {
   margin: 20px auto;
-  padding: 20px;
+  padding: 3rem;
   background-color: #FFCC00;
+}
+#yellow h1{
+  color: #000000;
+  background-color: #FFCC00;
+  padding: 2rem;
+  text-align: center;
+  font-size: 50px;
+
+}
+#none{
+  background-color: #000000;
+  text-align: center;
+  padding: 1rem;
+  color: #FFCC00;
+  
 }
 
 #score {
   margin-bottom: 20px;
   font-weight: bold;
+  padding: 20px;
+ 
 }
 
 #feedback {
   margin-top: 20px;
   font-weight: bold;
+  font-size: larger;
 }
 
 button {
@@ -56,7 +90,24 @@ button {
   color: #FFFFFF;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
+  letter-spacing: 2px;
   cursor: pointer;
   margin: 10px;
+  font-family:'Germania One', cursive;
+  border: 1px solid;
+}
+
+label {
+  font-size: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Germania One', cursive;;
+}
+
+#instructions{
+  font-size: 50px;
 }

@@ -94,3 +94,14 @@ function restartQuiz() {
     feedbackContainer.innerHTML = '';
     startQuiz();
 }
+
+const usernameInput = document.getElementById('username');
+
+
+usernameInput.addEventListener('input', () => {
+    if (usernameInput.value.trim() !== '') {
+        startButton.removeAttribute('disabled');
+    } else {
+        startButton.setAttribute('disabled', true);
+    }
+});
