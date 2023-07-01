@@ -2,17 +2,18 @@ body {
   background-color: #000000;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
+  font-size: 20px;
 }
 
 .container {
   text-align: center;
-  padding: 20px;
+  padding: 5rem;
 }
 
 h1 {
   color: #000000;
   background-color: #FF0000;
-  padding: 10px;
+  padding: 5rem;
 }
 
 #quiz {
@@ -38,4 +39,5 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  margin: 10px;
 }
