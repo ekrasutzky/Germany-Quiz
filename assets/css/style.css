@@ -14,8 +14,27 @@ h1 {
   color: #000000;
   background-color: #FF0000;
   padding: 5rem;
+  text-align: center;
 }
 
+ul{
+  text-align: center;
+}
+li{
+  text-align: center;
+  display: block;
+  padding: 4px;
+}
+
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+  background: gold;
+  padding: 2rem;
+  color: #000000;
+}
 #quiz {
   margin: 20px auto;
   padding: 20px;
