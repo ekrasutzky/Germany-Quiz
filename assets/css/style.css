@@ -14,7 +14,7 @@ body {
 
 .container {
   text-align: center;
-  padding: 3rem;
+  padding: 30px;
   font-size: 25px;
   letter-spacing: 3px;
   display: block;
@@ -24,7 +24,7 @@ body {
 h1 {
   color: #000000;
   background-color: #FF0000;
-  padding: 2rem;
+  padding: 30px;
   text-align: center;
   
 }
@@ -46,20 +46,19 @@ h3{
   text-align: center;
 }
 h4{
-  text-align: center;
-  background: gold;
-  padding: 2rem;
+  text-align: center; 
+  padding: 20px;
   color: #000000;
 }
 #quiz {
   margin: 20px auto;
-  padding: 3rem;
+  padding: 30px;
   background-color: #FFCC00;
 }
 #yellow h1{
   color: #000000;
   background-color: #FFCC00;
-  padding: 2rem;
+  padding: 20px;
   text-align: center;
   font-size: 40px;
 
