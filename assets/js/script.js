@@ -3,6 +3,7 @@ let scoreContainer = document.getElementById('score-value');
 let feedbackContainer = document.getElementById('feedback');
 let startButton = document.getElementById('start-btn');
 
+// Here's the questions for the user that will be tested
 let questions = [
     {
         question: "Germany is the largest country in Europe.",
@@ -15,13 +16,42 @@ let questions = [
         image: "berlin.jpg"
     },
     {
+        question:"The national dish of Germany is sushi.",
+        answer: false, 
+    },
+    {
         question: "German is the official language of Germany.",
         answer: true,
         image: "german.jpg"
     },
-    // Add more questions here
-];
+    {
+        question: "The Berlin Wall was built to keep people from entering Germany.",
+        answer: false,
+    },
+    {
+        question: "Germany is known for its world-renowned automobile industry.",
+        answer: true,
+    },
+    {
+        question: "The Black Forest is a desert region in Germany.",
+        answer: false,
 
+    },
+    {
+        question:"The Berlin Wall fell in 1989, marking the reunification of East and West Germany.",
+        answer:true,
+    },
+    {
+        question:"Germany is known for its spicy cuisine.",
+        answer: false,
+    },
+    {
+       question:"Germany is home to the Black Forest, a picturesque region known for its dense forests and charming villages." ,
+       answer:true,
+    }
+
+];
+// fuctions to keep the score, check the wrong/right questions and eventListeners
 let score = 0;
 let currentQuestion = 0;
 
@@ -77,7 +107,7 @@ function checkAnswer(userAnswer, question) {
     currentQuestion++;
     renderQuestion();
 }
-
+// fuctions to give feedback and restart the game 
 function finishQuiz() {
     
 
@@ -88,7 +118,7 @@ function finishQuiz() {
     let username = document.getElementById('username').value;
     
     let message;
-    if (score >= 3) {
+    if (score >= 10) {
         message = `Congratulations, ${username}! You passed the quiz with a score of ${score}/${questions.length}. Well done!`;
     } else {
         message = `Sorry, ${username}. You did not pass the quiz. Your score is ${score}/${questions.length}. Better luck next time!`;
