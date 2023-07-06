@@ -33,26 +33,24 @@ Welcome to the Germany Quiz! This quiz is designed to test your knowledge about 
 9. View your final score and a fun completion message.
 10. If you want to play again, simply click the "Restart" button.
 
-## ♥ First View of the site
+## First View of the site
 
 - First thing the user will see is two options to choose. They can choose if they want to start off reading the instructions or start right away with the game. 
 
 - This image and all around it was decided to be like that in order to catch users' eye and produce an impact on them with all the colors from the image and a welcoming text. 
 
- ## ♥ Color Scheme
+ ## Color Scheme
  - The color scheme has been chosen and applied through the whole website on purpose. The user will see the Germany's flag colors throughout the whole website. 
- ### Features Left to Implement
  
- - Maps in the Food, Citty and Culture pages.
 
- ## ♥ Validator Testing
+ ##  Validator Testing
 - HTML:
 No errors were returned when passing through the official W3C validator
 
 - CSS :
 No errors were found when passing through the official (Jigsaw) validator
 
-- Js hint 
+- Js hint:
 
 - Lighthouse:
 I ran a test on Lighthouse to check the accesibility and performance  of the website
@@ -64,26 +62,19 @@ I ran a test on Lighthouse to check the accesibility and performance  of the web
 
 
 
-## ♥ Frameworks, Libraries and Programs Used
+##  Frameworks, Libraries and Programs Used
 - Google Fonts - for the font families: PlayFair Display and Lato.  San-serif was used as a default font.
-- Font Awesome - to add icons to the social links in the footer element.
 - GitPod - to creat my html files and styling sheet before pushing the project to Github.
 - GitHub - to store my repository for submission.
 - Am I Responsive? - to ensure the project looked good across all devices.
 - 
-## ♥ Deployment
+##  Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 1. In the GitHub repository, navigate to the Settings tabgit
 From the source section drop-down menu, select the Master Branch
 2. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here : https://ekrasutzky.github.io/Buenos-Aires-P1/
+The live link can be found here : https://ekrasutzky.github.io/Germany-Quiz/
 
-## ♥ Credits
+##  Credits
 - As my knowledge is a bit  limited in this stage of learning, the initial set up & style was inspired by the 'Love Running' project, like  the design of the navigation bar, along with the display of the social links in the footer element.
-
-1. Pictures and text have been taken from: 
--  [Nomadic Foodie](https://nomadicfoodist.com/best-restaurants-in-buenos-aires/)
--  [Secrets of Buenos Aires](https://secretsofbuenosaires.com/things-to-do-in-buenos-aires/)
--  [Condé Nast Traveler](https://www.cntraveler.com/gallery/best-museums-to-visit-in-buenos-aires)
--  [Culture Trip](https://theculturetrip.com/south-america/argentina/articles/15-must-visit-attractions-in-buenos-aires/)
