@@ -78,13 +78,13 @@ function renderQuestion() {
     let trueButton = createButton('True');
     let falseButton = createButton('False');
 
-    trueButton.addEventListener('click', () => {
+    trueButton.addEventListener('click', function() {
         checkAnswer(true, question);
-    });
-    falseButton.addEventListener('click', () => {
+        });
+        falseButton.addEventListener('click', function() {
         checkAnswer(false, question);
-    });
-
+        });
+    
     quizContainer.appendChild(trueButton);
     quizContainer.appendChild(falseButton);
 }
@@ -114,6 +114,7 @@ function finishQuiz() {
     startButton.style.display = 'inline-block';
     startButton.innerHTML = 'Restart';
     startButton.addEventListener('click', restartQuiz);
+
     
     let username = document.getElementById('username').value;
     
@@ -125,10 +126,23 @@ function finishQuiz() {
     }
 
     feedbackContainer.innerHTML = `
-        <h2>Quiz Completed</h2>
+        <h2>Quiz Completed!</h2>
         <p>${message}</p>
     `;
 }
+
+// Feedback for when the game ends with the name that user chose.
+let usernameInput = document.getElementById('username');
+
+
+usernameInput.addEventListener('input', function() {
+    if (usernameInput.value.trim() !== '') {
+    startButton.removeAttribute('disabled');
+    } else {
+    startButton.setAttribute('disabled', true);
+    }
+    });
+// Function to restart the game 
 
 function restartQuiz() {
     score = 0;
@@ -138,13 +152,3 @@ function restartQuiz() {
     startQuiz();
 }
 
-let usernameInput = document.getElementById('username');
-
-
-usernameInput.addEventListener('input', () => {
-    if (usernameInput.value.trim() !== '') {
-        startButton.removeAttribute('disabled');
-    } else {
-        startButton.setAttribute('disabled', true);
-    }
-});

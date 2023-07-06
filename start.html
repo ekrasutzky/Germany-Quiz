@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Germany, Germany Quiz">
+    <meta name="keywords" content="Germany, Quiz">
     <title> Germany's Quiz</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
@@ -11,16 +14,18 @@
      <div class="container">
         <h1><a href="index.html">Germany Quiz</a></h1>
         <div id="quiz"></div>
+// Here the user will see a bar to choose a name and just then, user can start the game
 
         <div id="user-input">
             <label for="username">Enter your username:</label>
             <input type="text" id="username" required>
             <button id="start-btn" disabled>Start!</button>
         </div>
+//here the score will  be recorded
 
         <div id="score">Score: <span id="score-value">0</span></div>
         
-        
+        /*feedback whether the answer is correc or incorrect*/
         <div id="feedback"></div>
     </div>
     <script src="/assets/js/script.js"></script>
