@@ -3,7 +3,7 @@ let scoreContainer = document.getElementById('score-value');
 let feedbackContainer = document.getElementById('feedback');
 let startButton = document.getElementById('start-btn');
 
-// Here's the questions for the user that will be tested
+// Here's the questions that the user needs to answer to score. 
 let questions = [
     {
         question: "Germany is the largest country in Europe.",
