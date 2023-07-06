@@ -57,7 +57,7 @@ No errors were found when passing through the official (Jigsaw) validator
 - Lighthouse:
 I ran a test on Lighthouse to check the accesibility and performance  of the website
 
-![lighthouse](./assets/images-readme/lighthousescreen.png)
+![lighthouse](./assets/images/lighthouse.png)
 
 - I also checked that all the links work throughout the 4 pages (Home, Food, Culture, City and Newsletter) as well in the main page (Home) where user can find clickeable links to the different pages of the website. 
 
