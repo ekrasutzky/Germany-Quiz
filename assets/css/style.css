@@ -24,8 +24,7 @@ h1 {
   color: #000000;
   background-color: #FF0000;
   padding: 30px;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 a{
@@ -111,3 +110,8 @@ input[type="text"] {
   font-size: 40px;
 }
 
+/* ---media queries */
+@media (max-width: 414px) {
+  
+  
+}
