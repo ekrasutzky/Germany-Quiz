@@ -23,13 +23,15 @@ body {
 h1 {
   color: #000000;
   background-color: #FF0000;
-  padding: 30px;
+  padding: 0px;
   text-align: center;  
+
 }
 
 a{
   text-decoration: none;
   color: #000000;
+  font-size: 70%;
 }
 ul{
   text-align: center;
@@ -51,14 +53,14 @@ h4{
  
 }
 #quiz {
-  margin: 20px auto;
-  padding: 30px;
-  background-color: #FFCC00;
+ margin: 0px;
+ padding: 15px;
+ background-color: #FFCC00;
 }
 #yellow h1{
   color: #000000;
   background-color: #FFCC00;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
   font-size: 40px;
 
@@ -102,8 +104,7 @@ label {
   font-size: 20px;
 }
 
-input[type="text"] {
-  padding: 10px;
+input[type="text"] {  
   font-size: 18px;
   font-family: 'Germania One', cursive;;
 }
