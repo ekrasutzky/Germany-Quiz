@@ -87,8 +87,7 @@ h4{
 button {
   background-color: #000000;
   color: #FFFFFF;
-  border: none;
-  padding: 10px 20px;
+  border: none;  
   font-size: 20px;
   letter-spacing: 2px;
   cursor: pointer;
@@ -102,14 +101,21 @@ label {
 }
 
 input[type="text"] {  
-  font-size: 18px;
-  font-family: 'Germania One', cursive;;
+  
+  font-family: 'Germania One', cursive;
 }
+.username{
+  font-size: small;
+  font-family: 'Germania One', cursive;
+}
+
 
 #instructions{
   font-size: 40px;
 }
-
+.user-input{
+  padding: 20px;
+}
 /* ---media queries */
 @media (max-width: 414px) {
     .container {
