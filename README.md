@@ -13,8 +13,10 @@ Welcome to the Germany Quiz! This quiz is designed to test your knowledge about 
 ![score tracking](./assets/images/score.jpg)
 - Colorful images to support the correct/incorrect answers.
 - User can create a username for a personalized experience.
+![bar to log user's name](./assets/images/enteruser.png)
 - Immediate feedback on each question.
-- Ability to restart the quizd play again and
+- Ability to restart the quizd play again and feedback on the results
+![restart button and feedback](./assets/images/restart%20button.jpg)
 
 
 ## Technologies Used
