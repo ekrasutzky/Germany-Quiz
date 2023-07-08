@@ -55,7 +55,7 @@ No errors were found when passing through the official (Jigsaw) validator
 - Lighthouse:
 I ran a test on Lighthouse to check the accesibility and performance  of the website
 
-![lighthouse](./assets/images/lighthouse.png)
+![lighthouse](./assets/images/lighthouse.jpg)
 
 - I also checked that all the links work throughout the 4 pages (Home, Food, Culture, City and Newsletter) as well in the main page (Home) where user can find clickeable links to the different pages of the website. 
 
@@ -76,5 +76,4 @@ From the source section drop-down menu, select the Master Branch
 
 The live link can be found here : https://ekrasutzky.github.io/Germany-Quiz/
 
-##  Credits
-- As my knowledge is a bit  limited in this stage of learning, the initial set up & style was inspired by the 'Love Running' project, like  the design of the navigation bar, along with the display of the social links in the footer element.
+ 
