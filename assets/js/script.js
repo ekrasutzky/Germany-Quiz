@@ -4,7 +4,7 @@ let feedbackContainer = document.getElementById('feedback');
 let startButton = document.getElementById('start-btn');
 
 // Here's the questions that the user needs to answer to score. 
-let questions = [
+const QUESTIONS  = [
     {
         question: "Germany is the largest country in Europe.",
         answer: false,
@@ -134,13 +134,18 @@ function finishQuiz() {
 // Feedback for when the game ends with the name that user chose.
 let usernameInput = document.getElementById('username');
 
-
-usernameInput.addEventListener('input', function() {
-    if (usernameInput.value.trim() !== '') {
-    startButton.removeAttribute('disabled');
-    } else {
-    startButton.setAttribute('disabled', true);
-    }
+    function enableStartButton() {
+        if (usernameInput.value.trim() !== '') {
+        startButton.removeAttribute('disabled');
+        } else {
+        startButton.setAttribute('disabled', true);
+        }
+        }
+    
+    
+    window.addEventListener("DOMContentLoaded", (event) => {
+     usernameInput.addEventListener('input', enableStartButton);
+    
     });
 // Function to restart the game 
 

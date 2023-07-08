@@ -33,6 +33,7 @@ a{
 }
 ul{
   text-align: center;
+  padding: 0;
 }
 li{
   text-align: center;
@@ -45,8 +46,9 @@ h3{
 }
 h4{
   text-align: center; 
-  padding: 20px;
-  color: #000000;
+  padding: 0;
+  margin: 0;
+ 
 }
 #quiz {
   margin: 20px auto;
@@ -112,6 +114,39 @@ input[type="text"] {
 
 /* ---media queries */
 @media (max-width: 414px) {
-  
-  
+    .container {
+        width: 100%;
+        font-size: medium;
+        padding: 10% 0;
+    }
+
+    .button {
+        margin: 0 10px;
+        padding: 5px;
+        border: 5px solid;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }    
+    .score{
+        width: 100%;
+        margin: 0.5em auto;
+        display: block;
+        padding: 5px;
+    }
+   
+}
+
+@media (max-width: 320px) {
+    .container{
+        height: 70vh;
+        width: 75%;
+        margin: 10px auto;
+        padding: 10px 0;
+    }
+
+    .button {
+        margin: 10px 10px;
+    }
+
 }
