@@ -107,6 +107,8 @@ input[type="text"] {
 .username{
   font-size: small;
   font-family: 'Germania One', cursive;
+ 
+  
 }
 
 
@@ -114,7 +116,7 @@ input[type="text"] {
   font-size: 40px;
 }
 .user-input{
-  padding: 20px;
+  padding: 40px;
 }
 /* ---media queries */
 @media (max-width: 414px) {
