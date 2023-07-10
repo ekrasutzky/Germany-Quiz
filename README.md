@@ -11,7 +11,6 @@ Welcome to the Germany Quiz! This quiz is designed to test your knowledge about 
 - Germany's flag colors used in the styling.
 - Score tracking system to keep track of your progress.
 ![score tracking](./assets/images/scorefeedback.jpg)
-- Colorful images to support the correct/incorrect answers.
 - User can create a username for a personalized experience.
 ![bar to log user's name](./assets/images/enteruser.jpg)
 - Immediate feedback on each question.
