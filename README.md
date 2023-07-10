@@ -2,7 +2,7 @@
 
 Welcome to the Germany Quiz! This quiz is designed to test your knowledge about Germany in a fun and interactive way. Answer a series of true or false questions and see how well you know this fascinating country.
 
-![display in different devices](./assets/images/responsiveness.jpg)
+![display in different devices](./images-readme/responsiveness.jpg)
 
 ## Features
 
@@ -10,12 +10,12 @@ Welcome to the Germany Quiz! This quiz is designed to test your knowledge about 
 - User-friendly interface with minimalist design.
 - Germany's flag colors used in the styling.
 - Score tracking system to keep track of your progress.
-![score tracking](./assets/images/scorefeedback.jpg)
+![score tracking](./images-readme/scorefeedback.jpg)
 - User can create a username for a personalized experience.
-![bar to log user's name](./assets/images/enteruser.jpg)
+![bar to log user's name](./images-readme/enteruser.jpg)
 - Immediate feedback on each question.
 - Ability to restart the quizd play again and feedback on the results
-![restart button and feedback](./assets/images/restart%20button.jpg)
+![restart button and feedback](./images-readme/restart%20button.jpg)
 
 
 ## Technologies Used
@@ -66,7 +66,7 @@ No errors were found while runing test on JH hint.
 - Lighthouse:
 I ran a test on Lighthouse to check the accesibility and performance  of the website
 
-![lighthouse](./assets/images/lighthouse.jpg)
+![lighthouse](./images-readme/lighthouse.jpg)
 
 - I also checked that all the links work throughout the 3 pages (Index, Instructions and the the game itself) as well in the main page (Index) where user can find clickeable link by clicking on the "Germany Quiz" title to the different pages of the website. 
 
