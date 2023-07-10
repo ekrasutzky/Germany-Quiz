@@ -1,7 +1,7 @@
 let quizContainer = document.getElementById('quiz');
 let scoreContainer = document.getElementById('score-value');
 let feedbackContainer = document.getElementById('feedback');
-let startButton = document.getElementById('start-btn');
+let startButton = document.getElementById('user-input');
 
 // Here's the questions that the user needs to answer to score. 
 const questions  = [
