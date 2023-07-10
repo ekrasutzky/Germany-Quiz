@@ -71,11 +71,11 @@ I ran a test on Lighthouse to check the accesibility and performance  of the web
 - I also checked that all the links work throughout the 3 pages (Index, Instructions and the the game itself) as well in the main page (Index) where user can find clickeable link by clicking on the "Germany Quiz" title to the different pages of the website. 
 
 ## User Stories 
-- As a visiting user, i would like:
--- To play a quiz regarding Germany
--- To be able to choose a name to play the game and have feedback about my right or wrong answers
--- To have a score counter 
--- To have the possibility to restart the game
+### As a visiting user, i would like:
+- To play a quiz regarding Germany
+- To be able to choose a name to play the game and have feedback about my right or wrong answers
+- To have a score counter 
+- To have the possibility to restart the game
 
 ## Test Cases
  - As going through Index.html, the user can find the title of the game and two options to click on: "Instructions" and "Start!"
