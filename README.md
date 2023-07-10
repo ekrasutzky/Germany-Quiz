@@ -24,6 +24,12 @@ Welcome to the Germany Quiz! This quiz is designed to test your knowledge about 
 - CSS
 - JavaScript
 
+##  Frameworks, Libraries and Programs Used
+- Google Fonts - for the font families: 'Germania One'.  Cursive was used as a default font.
+- GitPod - to creat my html files and styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Am I Responsive? - to ensure the project looked good across all devices.
+
 ## How to Play
 
 1. Open the Germany Quiz in your web browser.
@@ -62,17 +68,20 @@ I ran a test on Lighthouse to check the accesibility and performance  of the web
 
 ![lighthouse](./assets/images/lighthouse.jpg)
 
-- I also checked that all the links work throughout the 3 pages (Index, Instructions and the the game itself)) as well in the main page (Index) where user can find clickeable link by clicking on the "Germany Quiz" title to the different pages of the website. 
+- I also checked that all the links work throughout the 3 pages (Index, Instructions and the the game itself) as well in the main page (Index) where user can find clickeable link by clicking on the "Germany Quiz" title to the different pages of the website. 
 
+## User Stories 
+- As a visiting user, i would like:
+-- To play a quiz regarding Germany
+-- To be able to choose a name to play the game and have feedback about my right or wrong answers
+-- To have a score counter 
+-- To have 
 
-
-
-##  Frameworks, Libraries and Programs Used
-- Google Fonts - for the font families: PlayFair Display and Lato.  San-serif was used as a default font.
-- GitPod - to creat my html files and styling sheet before pushing the project to Github.
-- GitHub - to store my repository for submission.
-- Am I Responsive? - to ensure the project looked good across all devices.
-- 
+## Test Cases
+ - As going through Index.html, the user can find the title of the game and two options to click on: "Instructions" and "Start!"
+ - If the user chooses to click on the "Instructions" button, the user will see a welcoming title, followed by ten steps to follow about how to play the game. At the end of those instructions, there will be the "Start" button to play the game right away. 
+ - When the user clicks the "Start" button, either in the Index.html or at the end of the instructions.html, the user will be linked to the start.html page. Meaning that once there, the user will see the title of the game, a bar to log a name, a "start" button and a score counter. Once the name has been chosen, user should press "start" (that's the only way to start the game, otherwise, the button will not activate the game). Once the user logs the name and hit start, the user will be tested with 10 questions about Germany while having the score number and an inmediate feedback about their answers whether if it's correct or incorrect. After answering the 10 questions, the user will find a final feedback, the number of right questions answered and if they passed or not the test along with a "restart" button to play again. 
+-
 ##  Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 1. In the GitHub repository, navigate to the Settings tabgit
