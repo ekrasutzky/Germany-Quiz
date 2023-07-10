@@ -7,13 +7,11 @@ let startButton = document.getElementById('start-btn');
 const questions  = [
     {
         question: "Germany is the largest country in Europe.",
-        answer: false,
-        image: "germany.jpg"
+        answer: false,        
     },
     {
         question: "The capital city of Germany is Berlin.",
-        answer: true,
-        image: "berlin.jpg"
+        answer: true,    
     },
     {
         question:"The national dish of Germany is sushi.",
@@ -22,7 +20,6 @@ const questions  = [
     {
         question: "German is the official language of Germany.",
         answer: true,
-        image: "german.jpg"
     },
     {
         question: "The Berlin Wall was built to keep people from entering Germany.",
