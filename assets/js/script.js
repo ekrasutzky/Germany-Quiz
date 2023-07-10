@@ -59,6 +59,7 @@ startButton.addEventListener('click', startQuiz);
 
 function startQuiz() {
     document.getElementById('user-input').style.display = 'none';
+    startButton.style.display = 'none';
     renderQuestion();
 }
 
