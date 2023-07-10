@@ -75,7 +75,7 @@ I ran a test on Lighthouse to check the accesibility and performance  of the web
 -- To play a quiz regarding Germany
 -- To be able to choose a name to play the game and have feedback about my right or wrong answers
 -- To have a score counter 
--- To have 
+-- To have the possibility to restart the game
 
 ## Test Cases
  - As going through Index.html, the user can find the title of the game and two options to click on: "Instructions" and "Start!"
@@ -89,5 +89,6 @@ From the source section drop-down menu, select the Master Branch
 2. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here : https://ekrasutzky.github.io/Germany-Quiz/
+
 
  
