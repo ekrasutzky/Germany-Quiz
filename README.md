@@ -50,7 +50,7 @@ Welcome to the Germany Quiz! This quiz is designed to test your knowledge about 
 - This image and all around it was decided to be like that in order to catch users' eye and produce an impact on them with all the colors from the image and a welcoming text. 
 
  ## Color Scheme
- - The color scheme has been chosen and applied through the whole website on purpose. The user will see the Germany's flag colors throughout the whole website. 
+ - The color scheme has been chosen and applied through the whole website on purpose. The user will see the Germany's flag colors throughout the whole website. I thought it would be a nice idea to bring the Germany's flag colors to this project.
  
 
  ##  Validator Testing

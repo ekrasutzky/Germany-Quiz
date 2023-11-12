@@ -69,23 +69,24 @@ function renderQuestion() {
     }
 
     let question = questions[currentQuestion];
-    let questionElement = document.createElement('div');
-    questionElement.innerHTML = question.question;
-    quizContainer.appendChild(questionElement);
-
-    let trueButton = createButton('True');
-    let falseButton = createButton('False');
-
-    trueButton.addEventListener('click', function() {
-        checkAnswer(true, question);
-        });
-        falseButton.addEventListener('click', function() {
-        checkAnswer(false, question);
-        });
+    let questionElement = createAndAppendElement('div', question.question, quizContainer);
     
-    quizContainer.appendChild(trueButton);
-    quizContainer.appendChild(falseButton);
+    createAndAppendButton('True', () => checkAnswer(true, question), quizContainer);
+    createAndAppendButton('False', () => checkAnswer(false, question), quizContainer);
 }
+
+function createAndAppendElement(tag, content, parent) {
+    let element = document.createElement(tag);
+    element.innerHTML = content;
+    parent.appendChild(element);
+    return element;
+}
+
+function createAndAppendButton(text, clickHandler, parent) {
+    let button = createAndAppendElement('button', text, parent);
+    button.addEventListener('click', clickHandler);
+}
+
 
 function createButton(text) {
     let button = document.createElement('button');
@@ -107,27 +108,15 @@ function checkAnswer(userAnswer, question) {
 }
 // fuctions to give feedback and restart the game 
 function finishQuiz() {
-    
-
-    startButton.style.display = 'inline-block';
-    startButton.innerHTML = 'Restart';
-    startButton.addEventListener('click', restartQuiz);
-
-    
-    let username = document.getElementById('username').value;
-    
-    let message;
-    if (score >= 10) {
-        message = `Congratulations, ${username}! You passed the quiz with a score of ${score}/${questions.length}. Well done!`;
-    } else {
-        message = `Sorry, ${username}. You did not pass the quiz. Your score is ${score}/${questions.length}. Better luck next time!`;
-    }
-
+    startButton.style.cssText = 'display:inline-block;';  
+    startButton.innerHTML = 'Restart';  
+    startButton.addEventListener('click', restartQuiz); 
     feedbackContainer.innerHTML = `
         <h2>Quiz Completed!</h2>
-        <p>${message}</p>
-    `;
+        <p>${score >= 10 ? `Congratulations, ${document.getElementById('username').value}! You passed the quiz with a score of ${score}/${questions.length}. Well done!` : `Sorry, ${document.getElementById('username').value}. You did not pass the quiz. Your score is ${score}/${questions.length}. Better luck next time!`}</p>
+    `;  
 }
+
 
 // Feedback for when the game ends with the name that user chose.
 let usernameInput = document.getElementById('username');
