@@ -2,7 +2,7 @@
 
 body {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #feedba;
   font-size: 20px;
   font-family: 'Germania One', cursive;
   letter-spacing: 3px;
@@ -54,7 +54,7 @@ h4{
 #quiz {
  margin: 0px;
  padding: 15px;
- background-color: #FFCC00;
+ background-color: #000000;
 }
 
 #yellow h1{
@@ -85,15 +85,15 @@ h4{
 }
 
 button {
-  background-color: #000000;
-  color: #FFFFFF;
-  border: none;  
+  background-color: #ff0000;
+  color: #000000;
+  border: none;
   font-size: 20px;
   letter-spacing: 2px;
   cursor: pointer;
   margin: 10px;
-  font-family:'Germania One', cursive;
-  border: 1px solid;
+  font-family: 'Germania One', cursive;
+  border: 3px solid #ffcc00;
 }
 
 label {
