@@ -4,6 +4,7 @@ let feedbackContainer = document.getElementById('feedback');
 let startButton = document.getElementById('start-btn');
 
 // Here's the questions that the user needs to answer to score. 
+
 const questions  = [
     {
         question: "Germany is the largest country in Europe.",
@@ -48,7 +49,9 @@ const questions  = [
     }
 
 ];
+
 // fuctions to keep the score, check the wrong/right questions and eventListeners
+
 let score = 0;
 let currentQuestion = 0;
 
@@ -107,6 +110,7 @@ function checkAnswer(userAnswer, question) {
     renderQuestion();
 }
 // fuctions to give feedback and restart the game 
+
 function finishQuiz() {
     startButton.style.cssText = 'display:inline-block;';  
     startButton.innerHTML = 'Restart';  
@@ -138,4 +142,3 @@ function restartQuiz() {
     feedbackContainer.innerHTML = '';
     startQuiz();
 }
-

@@ -50,20 +50,29 @@ Welcome to the Germany Quiz! This quiz is designed to test your knowledge about 
 - This image and all around it was decided to be like that in order to catch users' eye and produce an impact on them with all the colors from the image and a welcoming text. 
 
  ## Color Scheme
- - The color scheme has been chosen and applied through the whole website on purpose. The user will see the Germany's flag colors throughout the whole website. I thought it would be a nice idea to bring the Germany's flag colors to this project.
+ - The color scheme has been chosen and applied throughout the whole website on purpose. The user will see the Germany's flag colors throughout the whole website. I thought it would be a nice idea to bring the Germany's flag colors to this project.
  
 
  ##  Validator Testing
-- HTML:
+#### HTML:
 No errors were returned when passing through the official W3C validator
 
-- CSS :
+#### CSS :
 No errors were found when passing through the official (Jigsaw) validator
 
 - Js hint:
-No errors were found while runing test on JH hint. 
+No errors were found while runing test on JH hint.
+ - The following metrics were returned:
 
-- Lighthouse:
+- There are 11 functions in this file.
+
+- Function with the largest signature take 3 arguments, while the median is 0.
+
+- Largest function has 8 statements in it, while the median is 3.
+
+- The most complex function has a cyclomatic complexity value of 2 while the median is 1. 
+
+#### Lighthouse:
 I ran a test on Lighthouse to check the accesibility and performance  of the website
 
 ![lighthouse](./images-readme/lighthouse.jpg)
